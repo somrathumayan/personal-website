@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.top-area{
+    background-image: url("/img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 4%;
+}
+
+.half-width img{
+    width: 100%;
+}
+.top-area{
+    display: flex;
+    align-items: center;
+}
+
+.text-highlighted{
+    color: orange;
+}
+.btn{
+    background-color: tomato;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.biography-area{
+    background-image: url("/img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+    display: flex;
+}
