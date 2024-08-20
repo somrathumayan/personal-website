@@ -41,3 +41,39 @@ body{
     align-items: center;
     display: flex;
 }
+
+.my-work-area h2{
+    text-align: center;
+}
+.single-work{
+    width: 33%;
+    float: left;
+    
+}
+.single-work> img{ 
+    width: 100%;
+}
+
+#client{
+    padding: 20px 0px;
+}
+.client-area{
+    text-align: center;
+    background-image: url("/img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leave-program{
+    width: 600px;
+    background-color: rgb(218, 70, 44);
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    padding: 20px 20px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
